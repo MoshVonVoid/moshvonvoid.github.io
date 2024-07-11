@@ -1,0 +1,69 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: midnightblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45rem;
+    margin: 0 auto;
+}
+
+#desc {
+    margin: 0 auto;
+}
+
+#skills .skill-container {
+    padding: 1rem;
+    display: block;
+    border: black solid 1px;
+    width: 20rem;
+    height: 12rem;
+    margin: .5rem;
+    background-color: #4e8bff;
+}
+
+#skills .skill-container h3 {
+    text-align: center;
+}
+
+section {
+    padding-bottom: 1rem;
+}
+
+body section p {
+    width: 40rem;
+    border: solid black 1px;
+    background-color: aquamarine;
+    padding: 2rem;
+}
+
+button {
+    margin: 0 auto;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+    font-size: 48px;
+
+    button {
+        height: 200px;
+        width: 200px;
+    }
+}
