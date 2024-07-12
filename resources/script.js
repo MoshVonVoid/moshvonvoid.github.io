@@ -6,5 +6,6 @@ function changeColor() {
     })
 }
 
-document.getElementById("randomColor").addEventListener('click', changeColor);
-document.getElementById("desc").addEventListener('click', changeColor);
+window.onload = function() {
+    document.getElementById("randomColor").addEventListener('click', changeColor);
+}
